@@ -47,7 +47,8 @@ layout: default
                     <h2>Share this on</h2>
                         <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}{% if page.description %}&text={{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}{% if site.twitter %}&via={{ site.twitter }}{% endif %}" title="Share on Twitter"><i class="fa fa-twitter fa-2x"> </i></a>
 
-                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}{% if page.description %}&t={{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}" title="Share on Facebook"><i class="fa fa-facebook fa-2x"></i> </a>
+                      <!--   <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}{% if page.description %}&t={{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}" title="Share on Facebook"><i class="fa fa-facebook fa-2x"></i> </a> -->
+                        <a href="https://www.facebook.com/dialog/share?app_id=120242138335958&display=popup&href={{ site.url }}{{ page.url }}&redirect_uri={{ site.url }}{{ page.url }}"><i class="fa fa-facebook fa-2x"></i> </a>
 
                         <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><i class="fa fa-google-plus fa-2x"></i></a>
                 </aside>
