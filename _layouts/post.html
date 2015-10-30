@@ -41,6 +41,40 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
+                
+                <hr>
+                <aside class="social-share" style="text-align: center;">
+                    <h2>Share this on</h2>
+                        <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}{% if page.description %}&text={{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}{% if site.twitter %}&via={{ site.twitter }}{% endif %}" title="Share on Twitter"><i class="fa fa-twitter fa-2x"> </i></a>
+
+                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}{% if page.description %}&t={{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}" title="Share on Facebook"><i class="fa fa-facebook fa-2x"></i> </a>
+
+                        <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><i class="fa fa-google fa-2x"></i></a>
+                </aside>
+                <hr>
+
+                <div id="disqus_thread"></div>
+                <script>
+                    /**
+                     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                     */
+                    
+                    var disqus_config = function () {
+                        this.page.url = window.location.href;  // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = window.location.valueOf().pathname; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    
+                    (function() {  // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        
+                        s.src = '//supakornlaohasongkram.disqus.com/embed.js';
+                        
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
             </div>
         </div>
