@@ -7,6 +7,54 @@ author:     "Start Bootstrap"
 header-img: "img/post-bg-06.jpg"
 ---
 
+		<p>I have decided to do the only I know how to do, the only thing I know I do best, and the only thing which makes me feel alive and fulfilled. I decided to help people to be genuinely happy, to encourage people do what they love for the good of the society, to help them achieve a higher state of happiness in people&rsquo;s life, and share all strategies and techniques in art of happiness. This is what I feel I was born to do. <strong>It&rsquo;s</strong>&nbsp;<strong>the work I cannot not do</strong>. Many might called this a &ldquo;death wish.&rdquo; But even at the price of death, I am willing to risk everything just to truly live.</p>
+
+		<p>So fuck this. I quit.</p>
+
+		<p>
+			<br>
+		</p>
+
+		<p>I don&rsquo;t need a job. I need a purpose.</p>
+
+		<p>
+			<br>
+		</p>
+
+		<p>I don&rsquo;t need to be rich. I need enough just to be able to survive.</p>
+
+		<p>
+			<br>
+		</p>
+
+		<p>What I want is to be happy doing what I love which is also helping others how to be happy. That&rsquo;s it.</p>
+
+		<p>As my first step toward my goal, I have started a <strong>blog</strong>&nbsp;<strong>called</strong> &ldquo;<strong>True Happiness</strong>.&rdquo; (<a href="https://true-happiness.github.io" target="_blank">https://true-happiness.github.io</a>). This blog will be my main channel in sharing my experiences and insights into how to be happier. Please help by following me on Twitter or Facebook!</p>
+
+		<p>
+			<br>
+		</p>
+
+		<p><strong>Twitter&nbsp;</strong></p>
+
+		<p>
+			<a href="https://twitter.com/klaoha06"></a><a href="https://twitter.com/klaoha06">https://twitter.com/klaoha06</a></p>
+
+		<p>
+			<br>
+		</p>
+
+		<p>
+			<br>
+		</p>
+
+		<p>or <strong>Facebook</strong></p>
+
+		<p>
+			<a href="https://www.facebook.com/kornslife/"></a><a href="https://www.facebook.com/kornslife/">https://www.facebook.com/kornslife/</a></p>
+
+
+
 <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
 
 <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>

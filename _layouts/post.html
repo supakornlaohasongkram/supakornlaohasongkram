@@ -26,7 +26,25 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
 				{{ content }}
+                
+                <hr>
+                <div class="text-center">
+                    <h3>About Author</h3>
+                        <small>Supakorn Laohasongkram's dream is to open a university where the goal of teaching is <em>to inspire the students</em> through real-practical work which purpose is aim at actually bettering their lives the lives of all people around them.</small>
+                        <br>
+                        <br><a href="/about" title="About Author">- Learn more here -</a>
+                </div>
 
+                
+                <hr>
+                <aside class="social-share text-center">
+                    <h3>Share this on</h3>
+                        <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}{% if page.description %}&text={{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}{% if site.twitter %}&via={{ site.twitter }}{% endif %}" title="Share on Twitter"><i class="fa fa-twitter fa-2x"> </i></a>
+
+                        <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook fa-2x"> </i></a>
+
+                        <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><i class="fa fa-google-plus fa-2x"></i></a>
+                </aside>
                 <hr>
 
                 <ul class="pager">
@@ -41,16 +59,6 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
-                
-                <hr>
-                <aside class="social-share" style="text-align: center;">
-                    <h2>Share this on</h2>
-                        <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}{% if page.description %}&text={{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}{% if site.twitter %}&via={{ site.twitter }}{% endif %}" title="Share on Twitter"><i class="fa fa-twitter fa-2x"> </i></a>
-
-                        <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook fa-2x"> </i></a>
-
-                        <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><i class="fa fa-google-plus fa-2x"></i></a>
-                </aside>
                 <hr>
 
                 <div id="disqus_thread"></div>
